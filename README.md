@@ -39,8 +39,8 @@
 
 | 이름 | 역할 |
 |------|------|
-| @kslvy | 네트워크보안 작성 |
-| @foqjsblue | 시스템보안 작성 |
+| @kslvy | networksec |
+| @foqjsblue | systemsec |
 ---
 
 > 공부한 것을 "내 언어로 정리"하면서 장기기억화하기 위한 기록입니다.  
