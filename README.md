@@ -9,9 +9,9 @@
 
 | 구분 | 링크 |
 |------|------|
-| ✅ 네트워크 보안 | [네트워크보안.md](./CS/네트워크보안.md) |
+| ✅ 네트워크 보안 | [networksec.md](./Security/networksec.md) |
 | ✅ 암호학 | [crypto.md](./crypto.md) |
-| ✅ 시스템 보안 | [시스템보안.md](./CS/시스템보안.md) |
+| ✅ 시스템 보안 | [systemsec.md](./Security/systemsec.md) |
 | ✅ 운영체제 | [os.md](./os.md) |
 | ✅ 네트워크 | [cs_network.md](./cs_network.md) |
 ---
