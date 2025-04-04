@@ -31,13 +31,14 @@
   3. **의미**: 각 비트가 갖는 의미를 나타내는 것 (전송제어, 오류수정 등 제어정보 규정)
   4. **타이밍**: 두 개체 간의 통신 속도를 조정 / 메시지 전송시간 및 순서 등의 특성
 
-### ⭐ OSI 7계층에 대한 설명 (데이터 종류, 프로토콜, 보안 프로토콜)
+### OSI 7계층에 대한 설명 (데이터 종류, 프로토콜, 보안 프로토콜) ⭐
 - **키워드**: Physical, Datalink, Network, Transport, Session, Presentation, Application
 - **설명**:  
   1. **Physical (L1)**: 물리적 연결을 설정 및 해제, 전송방식 및 전송 매체 (Bitstream | -)
   2. **Datalink (L2)**: 오류 제어, 매체 제어 (MAC), 흐름 제어 (Frame | 이더넷 | PPTP, L2F, L2TP)
   3. **Network (L3)**: 통신 경로를 설정하고 중계함, 라우팅 (Packet | IP, ICMP, IGMP, ARP, RIP, OSRF | IPSec)
   4. **Transport (L4)**: 데이터 전송을 보장, 흐름 제어, Quality Of Service (QOS) (Segment | TCP, UDP, SCTP | SSL/TLS)
-  5. **Session (L5)**: 
-  6. **Presentation (L6)**:
-  7. **Application (L7)**:
+  5. **Session (L5)**: 소켓 프로그래밍, 동기화, 세션 연결/관리/ 종료 (Message | FTP, TFTP, SNMP, SMTP, HTTP, DNS | Kerberos, PGP, S/MIME, SSH, SET)
+  6. **Presentation (L6)**: 네트워크 보안(암/복호화), 압축/압축해, 포맷 변환 수행 (L5와 동일)
+  7. **Application (L7)**: 각종 응용 서비스 제공, 네트워크 관리 (L5와 동일)
+
